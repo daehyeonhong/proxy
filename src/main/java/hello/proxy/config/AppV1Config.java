@@ -3,7 +3,6 @@ package hello.proxy.config;
 import hello.proxy.app.v1.*;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.Import;
 
 @Configuration
 public class AppV1Config {
