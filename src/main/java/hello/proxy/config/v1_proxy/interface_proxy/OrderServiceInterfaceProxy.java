@@ -1,6 +1,5 @@
 package hello.proxy.config.v1_proxy.interface_proxy;
 
-import hello.proxy.app.v1.OrderRepositoryV1;
 import hello.proxy.app.v1.OrderServiceV1;
 import hello.proxy.trace.TraceStatus;
 import hello.proxy.trace.logtrace.LogTrace;
