@@ -53,9 +53,7 @@ class BeanPostProcessorTests {
         @Override
         public Object postProcessAfterInitialization(final Object bean, final String beanName) throws BeansException {
             log.info("beanName={} bean={}", beanName, bean);
-            if (bean instanceof A) {
-                return new B();
-            }
+            if (bean instanceof A) return new B();
             return bean;
         }
     }
